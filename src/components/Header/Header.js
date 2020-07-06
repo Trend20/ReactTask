@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import Logo from '../../assets/img/brotherhood-global-foundation1.png';
+import './Header.css';
  
 class Header extends Component {
     render() { 
         return (
-            <div className="header">
+            <div className="heading">
                 <header>
                     <div className="logo">
                         <img src={Logo} />
                     </div>
-                    <div className="navigation">
+                    {/* <div className="navigation">
                         <Router>
                             <div>
-                                <nav>
+                                <nav className="main-navbar">
                                     <ul>
                                         <li>
                                             <Link to="/">Home</Link>
@@ -46,6 +47,24 @@ class Header extends Component {
                                 </Switch>
                             </div>
                         </Router>
+                    </div> */}
+                    <div className="links">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </header>
             </div>
