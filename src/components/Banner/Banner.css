@@ -1,0 +1,10 @@
+.banner{
+    font-size: 3.5rem;
+    margin-top: 320px;
+}
+
+.banner >h3{
+    min-height: 100vh;
+    margin-left: 150px;
+    word-spacing: 10px;
+}
