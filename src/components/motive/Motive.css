@@ -1,0 +1,41 @@
+.title{
+text-align: center;
+box-sizing: border-box;
+margin-top: 0;
+line-height: 1.2;
+font-size: 45px!important;
+font-weight: 900;
+letter-spacing: .1rem;
+margin-bottom: 10px;
+animation-fill-mode: both;
+animation-duration: 1000ms;
+animation-delay: 0ms;
+animation-iteration-count: 1;
+opacity: 1;
+animation-name: react-reveal-527535536996317-1;
+}
+
+
+.title>span{
+    color: #fc881d;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 75px;
+    height: 3px;
+    background-color: #f8b864;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}

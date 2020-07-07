@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import Jumbotron from './components/Jumbotron/Jumbotron';
-import Cards from './components/Cards/Cards';
+import Header from './components/header/Header';
+import Jumbotron from './components/jumbotron/Jumbotron';
+import Cards from './components/cards/Cards';
+import Motive from './components/motive/Motive';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Jumbotron />
       <Cards />
+      <Motive />
     </div>
   );
 }
