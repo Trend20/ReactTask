@@ -27,6 +27,9 @@ const Motive = () => {
                 than the grandest intention. And our team inspired by Utkal Mani Gopabandhu Das.
                 </p>
             </div>
+            <div className="parallax">
+                {/* <img src={}/> */}
+            </div>
         </div>
     );
 }

@@ -4,6 +4,7 @@ import Header from './components/header/Header';
 import Jumbotron from './components/jumbotron/Jumbotron';
 import Cards from './components/cards/Cards';
 import Motive from './components/motive/Motive';
+import Help from './components/help/Help';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Jumbotron />
       <Cards />
       <Motive />
+      <Help />
     </div>
   );
 }
