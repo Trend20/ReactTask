@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
-import Banner from './components/Banner/Banner';
+import Jumbotron from './components/Jumbotron/Jumbotron';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Jumbotron />
     </div>
   );
 }
