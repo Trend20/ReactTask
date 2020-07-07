@@ -1,0 +1,14 @@
+ :root{
+   --header-background-color: #cecaca;
+ }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--header-background-color);
+}
+
+.logo img{
+  height: 10vh;
+}

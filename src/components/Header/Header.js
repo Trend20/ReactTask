@@ -7,24 +7,24 @@ export default class Header extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <header>
+        <header className="header mt-0">
             <div className="logo">
                 <img src={Logo} />
             </div>
             <div className="navigation">
-                <nav className="navbar navbar-expand-lg navbar-dark bg-light">
+                <nav className="navbar navbar-expand-lg navbar-dark">
                    <ul className="nav">
                        <li className="nav-link">
-                           <a href="#" className="nav-item">Home</a>
+                           <a href="#" className="nav-item">HOME</a>
                        </li>
                        <li className="nav-link">
-                           <a href="#" className="nav-item">About</a>
+                           <a href="#" className="nav-item">ABOUT</a>
                        </li>
                        <li className="nav-link">
-                           <a href="#" className="nav-item">Blogs</a>
+                           <a href="#" className="nav-item">BLOGS</a>
                        </li>
                        <li className="nav-link">
-                           <a href="#" className="nav-item">Contacts</a>
+                           <a href="#" className="nav-item">CONTACT</a>
                        </li>
                    </ul>
                 </nav>
