@@ -1,10 +1,11 @@
-.help-contents{
+.help-header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.help-contents >span{
+.help-header >span{
     color: #fc881d;
     text-align: center;
     font-size: 16px;
