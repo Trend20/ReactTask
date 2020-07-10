@@ -16,45 +16,16 @@ class Help extends Component {
                            our culture and tradition also.
                         </p>
                     </div>
-                    <div className="container">
                     <div className="row">
                         <div className="col-sm-4">
-                        <div className="card" style={{width: '18rem'}}>
-                        <img  src={cardImage} className="card-image-top"/>
-                    </div>
-                    <div className="card-body">
-                        <h1 className="card-title">COVID-19 Relief Services</h1>
-                        <p className="card-text">In Nairobi Kenya</p>
-                    </div>
+                            <div className="card" style={{width: '18rem'}}>
+                               <img  src={cardImage} className="card-image-top"/>
+                               <div className="card-body">
+                                   <h1 className="card-title">COVID-19 Relief Services</h1>
+                                   <p className="card-text">In Nairobi Kenya</p>
+                               </div>
+                            </div>
                         </div>
-                        <div className="col-sm-4">
-                        <div className="card" style={{width: '18rem'}}>
-                        <img  src={cardImage} className="card-image-top"/>
-                    </div>
-                    <div className="card-body">
-                        <h1 className="card-title">COVID-19 Relief Services</h1>
-                        <p className="card-text">In Nairobi Kenya</p>
-                    </div>
-                        </div>
-                        <div className="col-sm-4">
-                        <div className="card" style={{width: '18rem'}}>
-                        <img  src={cardImage} className="card-image-top"/>
-                    </div>
-                    <div className="card-body">
-                        <h1 className="card-title">COVID-19 Relief Services</h1>
-                        <p className="card-text">In Nairobi Kenya</p>
-                    </div>
-                        </div>
-                        <div className="col-sm-4">
-                        <div className="card" style={{width: '18rem'}}>
-                        <img  src={cardImage} className="card-image-top"/>
-                    </div>
-                    <div className="card-body">
-                        <h1 className="card-title">COVID-19 Relief Services</h1>
-                        <p className="card-text">In Nairobi Kenya</p>
-                    </div>
-                        </div>
-                    </div>
                     </div>
             </div>
         );
