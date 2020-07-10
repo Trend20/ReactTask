@@ -16,13 +16,7 @@ class Help extends Component {
                            our culture and tradition also.
                         </p>
                     </div>
-
-                    <div className="card">
-                        <img  src={cardImage} className="card-image-top"/>
-                    </div>
-                    <div className="card-body">
-                        
-                    </div>
+                    
             </div>
         );
     }
