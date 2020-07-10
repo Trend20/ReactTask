@@ -17,3 +17,12 @@
     border-radius: 50%;
     margin: 15px 0;
 }
+
+.help-desc{
+    width: 40vw;
+    margin: auto;
+}
+
+.help-desc >p{
+    text-indent: 1.5px;
+}
