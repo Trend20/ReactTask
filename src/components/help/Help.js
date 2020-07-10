@@ -19,7 +19,10 @@ class Help extends Component {
                     <div className="container">
                     <div className="row">
                         <div className="col-sm-4">
-                            <div className="card" style={{width: '18rem'}}>
+                            <div className="card" style={{
+                                width: '23rem',
+                                height: '40vh'
+                                }}>
                                <img  src={cardImage} className="card-image-top"/>
                                <div className="card-body">
                                    <h1 className="card-title">COVID-19 Relief Services</h1>
