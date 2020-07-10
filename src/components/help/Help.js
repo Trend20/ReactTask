@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import cardImage from '../../assets/img/blog1.jpeg';
 import './Help.css';
  
 class Help extends Component {
@@ -14,6 +15,13 @@ class Help extends Component {
                            not only based on ethics but also added value and believing in 
                            our culture and tradition also.
                         </p>
+                    </div>
+
+                    <div className="card">
+                        <img  src={cardImage} className="card-image-top"/>
+                    </div>
+                    <div className="card-body">
+                        
                     </div>
             </div>
         );
