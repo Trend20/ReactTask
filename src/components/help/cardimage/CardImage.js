@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './CardImage.css';
+import cardImage from '../../../assets/img/blog1.jpeg';
 
 export default class CardImage extends Component {
   render() {
