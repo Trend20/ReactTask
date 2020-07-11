@@ -9,10 +9,28 @@ export default class CardImage extends Component {
         <div className="row">
             <div className="col-sm-4">
                 <div className="card" style={{
-                    width: '23rem',
-                    height: '40vh'
+                     width: '18rem',
+                     height:'30vh'
                     }}>
-                   <img  src={cardImage} className="card-image-top"/>
+                   <img  src={cardImage} 
+                   className="card-image-top"
+                   style={{height: '25vh'}}
+                   />
+                   <div className="card-body">
+                       <h1 className="card-title">COVID-19 Relief Services</h1>
+                       <p className="card-text">In Nairobi Kenya</p>
+                   </div>
+                </div>
+            </div>
+            <div className="col-sm-4">
+                <div className="card" style={{
+                    width: '18rem',
+                    height:'30vh'
+                    }}>
+                   <img  src={cardImage} 
+                   className="card-image-top"
+                       style={{height: '25vh'}}
+                   />
                    <div className="card-body">
                        <h1 className="card-title">COVID-19 Relief Services</h1>
                        <p className="card-text">In Nairobi Kenya</p>
@@ -21,7 +39,10 @@ export default class CardImage extends Component {
             </div>
             <div className="col-sm-4">
                 <div className="card" style={{width: '18rem'}}>
-                   <img  src={cardImage} className="card-image-top"/>
+                   <img  src={cardImage} 
+                   className="card-image-top"
+                   style={{height: '25vh'}}
+                   />
                    <div className="card-body">
                        <h1 className="card-title">COVID-19 Relief Services</h1>
                        <p className="card-text">In Nairobi Kenya</p>
@@ -30,16 +51,10 @@ export default class CardImage extends Component {
             </div>
             <div className="col-sm-4">
                 <div className="card" style={{width: '18rem'}}>
-                   <img  src={cardImage} className="card-image-top"/>
-                   <div className="card-body">
-                       <h1 className="card-title">COVID-19 Relief Services</h1>
-                       <p className="card-text">In Nairobi Kenya</p>
-                   </div>
-                </div>
-            </div>
-            <div className="col-sm-4">
-                <div className="card" style={{width: '18rem'}}>
-                   <img  src={cardImage} className="card-image-top"/>
+                   <img  src={cardImage} 
+                   className="card-image-top"
+                   style={{height: '25vh'}}
+                   />
                    <div className="card-body">
                        <h1 className="card-title">COVID-19 Relief Services</h1>
                        <p className="card-text">In Nairobi Kenya</p>
