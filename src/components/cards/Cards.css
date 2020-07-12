@@ -15,14 +15,14 @@
     align-items: flex-end;
 }
 
-.card-title{
+#title{
     width: 12vw;
     height: auto;
     color: #f18912;
     margin-right:-1px;
 }
 
-.card-text{
+#text{
     width: 7vw;
     display: flex;
     flex-direction: column;

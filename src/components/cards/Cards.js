@@ -21,8 +21,8 @@ class Cards extends Component {
 
                     }} />
                     <div className="card-body">
-                        <h1 className="card-title">Mission</h1>
-                        <p className="card-text">To eradicate hunger and poverty.</p>
+                        <h1 className="card-title" id="title">Mission</h1>
+                        <p className="card-text" id="text">To eradicate hunger and poverty.</p>
                     </div>
                 </div>
                  </div>
@@ -36,8 +36,8 @@ class Cards extends Component {
                          marginLeft:'10px'
                     }} />
                     <div className="card-body">
-                        <h1 className="card-title">Vission</h1>
-                        <p className="card-text">A world full of people devoid of miseries and pain.</p>
+                        <h1 className="card-title" id="title">Vission</h1>
+                        <p className="card-text" id="text">A world full of people devoid of miseries and pain.</p>
                     </div>
                 </div>
                 </div>
@@ -51,8 +51,8 @@ class Cards extends Component {
                         marginLeft:'10px'
                     }}  />
                     <div className="card-body">
-                        <h1 className="card-title">Moto</h1>
-                        <p className="card-text">We rise by lifting others.</p>
+                        <h1 className="card-title" id="title">Moto</h1>
+                        <p className="card-text" id="text">We rise by lifting others.</p>
                     </div>
                 </div>
                 </div>
