@@ -8,8 +8,8 @@ class Grid extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
-                        <div className="card">
-                            <img src={cardImage} />
+                        <div className="card" style={{height:'50vh'}}>
+                            <img src={cardImage} style={{height: '20vh'}}/>
                             <div className="card-body">
                                 <h1 className="card-title">COVID-19 Relief Services</h1>
                                 <p className="card-text">In Nairobi Kenya</p>
@@ -17,8 +17,8 @@ class Grid extends Component {
                         </div>
                     </div>
                     <div className="col-sm">
-                    <div className="card">
-                            <img src={cardImage} />
+                    <div className="card" style={{height:'50vh'}}>
+                            <img src={cardImage} style={{height: '20vh'}}/>
                             <div className="card-body">
                                 <h1 className="card-title">COVID-19 Relief Services</h1>
                                 <p className="card-text">In Nairobi Kenya</p>
@@ -26,8 +26,8 @@ class Grid extends Component {
                         </div>
                     </div>
                     <div className="col-sm">
-                    <div className="card">
-                            <img src={cardImage} />
+                    <div className="card" style={{height:'50vh'}}>
+                            <img src={cardImage} style={{height: '20vh'}}/>
                             <div className="card-body">
                                 <h1 className="card-title">COVID-19 Relief Services</h1>
                                 <p className="card-text">In Nairobi Kenya</p>
@@ -35,8 +35,8 @@ class Grid extends Component {
                         </div>
                     </div>
                     <div className="col-sm">
-                    <div className="card">
-                            <img src={cardImage} />
+                    <div className="card" style={{height:'50vh'}}>
+                            <img src={cardImage} style={{height: '20vh'}}/>
                             <div className="card-body">
                                 <h1 className="card-title">COVID-19 Relief Services</h1>
                                 <p className="card-text">In Nairobi Kenya</p>
