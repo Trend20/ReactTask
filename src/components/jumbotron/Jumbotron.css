@@ -1,5 +1,5 @@
 .jumbotron{
-    height: 70vh;
+    height: 100vh;
 }
 
 #jumbotron-text{
@@ -7,5 +7,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 210px;
+    margin-top: 30%;
 }
