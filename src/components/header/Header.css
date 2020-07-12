@@ -1,5 +1,11 @@
  :root{
    --header-background-color: #cecaca;
+   --text-color: #222;
+ }
+
+ .container-fluid{
+   margin: 0;
+   padding: 0;
  }
 
 .header{
@@ -10,5 +16,16 @@
 }
 
 .logo img{
-  height: 10vh;
+  height: 15vh;
+  margin-left: 15px;
+}
+
+.nav-item{
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.nav-item:hover{
+  text-decoration: none;
+  color: #2c2b2b;
 }
