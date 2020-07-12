@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './Help.css';
-import './Help.css';
-import CardImage from './cardimage/CardImage';
  
 class Help extends Component {
     render() { 
@@ -17,7 +15,6 @@ class Help extends Component {
                            our culture and tradition also.
                         </p>
                     </div>
-                    <CardImage />
             </div>
         );
     }
