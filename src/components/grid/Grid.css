@@ -1,5 +1,23 @@
+.col-sm{
+    border-radius: 5px;
+}
+
 .card{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+.card-body{
+    margin: 0;
+}
+
+.card-title{
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+}
+
+.card-text{
+    margin: auto;
+    font-size: 13px;
 }
