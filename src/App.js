@@ -5,6 +5,7 @@ import Jumbotron from './components/jumbotron/Jumbotron';
 import Cards from './components/cards/Cards';
 import Motive from './components/motive/Motive';
 import Help from './components/help/Help';
+import Grid from './components/grid/Grid';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Cards />
       <Motive />
       <Help />
+      <Grid />
     </div>
   );
 }
