@@ -8,7 +8,7 @@ import Motive from './components/motive/Motive';
 import Help from './components/help/Help';
 import Grid from './components/grid/Grid';
 import Team from './components/team/Team';
-import Chevron from './components/chevron/Chevron';
+import Caurosel from './components/chevron/Caurosel';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Help />
       <Grid />
       <Team />
-      <Chevron />
+      <Caurosel />
     </div>
   );
 }
