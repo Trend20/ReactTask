@@ -5,7 +5,9 @@ class Carousel extends Component {
     render() { 
         return (
             <div className="container">
-                
+                <div></div>
+                <img src={}/>
+                <div></div>
             </div>
         );
     }
