@@ -21,10 +21,10 @@ class Carousel extends Component {
                          <img className="d-block w-100" src={Team1} alt="First slide" />
                       </div>
                       <div className="carousel-item">
-                         <img className="d-block w-100" src="..." alt="Second slide" />
+                         <img className="d-block w-100" src={Team2} alt="Second slide" />
                       </div>
                       <div className="carousel-item">
-                          <img className="d-block w-100" src="..." alt="Third slide" />
+                          <img className="d-block w-100" src={Team3} alt="Third slide" />
                      </div>
                    </div>
                    <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
