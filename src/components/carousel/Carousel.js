@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Team1 from '../../assets/img/team1.jpg';
+import Team2 from '../../assets/img/team2.jpg';
+import Team3 from '../../assets/img/team3.jpg';
 import './Carousel.css';
+import Team from '../team/Team';
  
 class Carousel extends Component {
     render() { 
@@ -14,7 +18,7 @@ class Carousel extends Component {
                    </ol>
                    <div className="carousel-inner">
                       <div className="carousel-item active">
-                         <img className="d-block w-100" src="..." alt="First slide" />
+                         <img className="d-block w-100" src={Team1} alt="First slide" />
                       </div>
                       <div className="carousel-item">
                          <img className="d-block w-100" src="..." alt="Second slide" />
