@@ -8,7 +8,7 @@ import Motive from './components/motive/Motive';
 import Help from './components/help/Help';
 import Grid from './components/grid/Grid';
 import Team from './components/team/Team';
-import Caurosel from './components/chevron/Caurosel';
+import Carousel from './components/carousel/Carousel';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Help />
       <Grid />
       <Team />
-      <Caurosel />
+      <Carousel />
     </div>
   );
 }

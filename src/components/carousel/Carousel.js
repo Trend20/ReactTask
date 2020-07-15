@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Carousel.css';
  
 class Carousel extends Component {
@@ -36,4 +37,4 @@ class Carousel extends Component {
     }
 }
  
-export default Caurosel;
+export default Carousel;
