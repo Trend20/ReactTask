@@ -9,6 +9,7 @@ import Help from './components/help/Help';
 import Grid from './components/grid/Grid';
 import Team from './components/team/Team';
 import Carousel from './components/carousel/Carousel';
+import Banner from './components/bunner/Bunner';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Grid />
       <Team />
       <Carousel />
+      <Banner />
     </div>
   );
 }
