@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Index1 from '../../assets/img/index1.png';
 import Index2 from '../../assets/img/index2.png'
 import Index3 from '../../assets/img/index3.png'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Bunner.css';
 
 class Bunner extends Component {
