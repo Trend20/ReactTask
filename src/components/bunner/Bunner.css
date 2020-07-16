@@ -12,13 +12,15 @@
     border-radius: 50%;
     background: #fff;
     align-items: center;
-    width: 10vw;
-    height: 20vh;
+    width: 7vw;
+    height: 15vh;
+    position: relative;
 }
 
 .index >img{
-    top: 30%;
-    left: 50%;
-    width: 7vw;
-    height: 10vh;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 5vw;
+    height: 11vh;
 }
