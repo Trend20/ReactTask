@@ -10,17 +10,17 @@ class Bunner extends Component {
     return (
       <div className="banner-container">
         <div className="first-image-container">
-            <img src={Index1} />
+            <img src={Index1} className="index"/>
             <h3>Ration kits distributed</h3>
             <h1>5900</h1>
         </div>
         <div className="second-image-container">
-            <img src={Index2} />
+            <img src={Index2} className="index"/>
             <h3>Cash help extended</h3>
             <h1>Rs 240654</h1>
         </div>
         <div className="third-image-container">
-            <img src={Index3} />
+            <img src={Index3} className="index"/>
             <h3>People provided help</h3>
             <h1>3565</h1>
         </div>

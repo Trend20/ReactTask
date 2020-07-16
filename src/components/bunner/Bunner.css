@@ -3,6 +3,13 @@
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    background: #d4552e;
+    background: #ec7c5a;
     margin-top: 150px;
+}
+
+.index{
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    align-items: center;
 }
