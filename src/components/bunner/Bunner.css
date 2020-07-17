@@ -5,6 +5,8 @@
     align-items: center;
     background: #ec7c5a;
     margin-top: 150px;
+    height: 40vh;
+    border-radius: 5px;
 }
 
 .index{
@@ -23,4 +25,14 @@
     left: 15%;
     width: 5vw;
     height: 11vh;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-container h3,h1{
+   color: #fff;
 }
