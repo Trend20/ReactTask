@@ -16,7 +16,7 @@ class Card2 extends Component {
                <div className="container">
                <div className="card" style={{
                    width:'30vw',
-                   height:'100vh'
+                   height:'90vh'
                    }}>
                    <img  src={blogImage} 
                        style={{
@@ -29,7 +29,10 @@ class Card2 extends Component {
                        <a href="#">READ MORE</a>
                    </div>
                </div>
-               <div className="card" style={{width:'18rem'}}>
+               <div className="card" style={{
+                   width:'30vw',
+                   height:'90vh'
+                   }}>
                    <img  src={blogImage} 
                        style={{
                            height:'40vh',
@@ -41,7 +44,10 @@ class Card2 extends Component {
                        <a href="#">READ MORE</a>
                    </div>
                </div>
-               <div className="card" style={{width:'18rem'}}>
+               <div className="card" style={{
+                   width:'30vw',
+                   height:'90vh'
+                   }}>
                    <img  src={blogImage} 
                        style={{
                            height:'40vh',
