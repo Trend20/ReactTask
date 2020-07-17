@@ -1,0 +1,25 @@
+.helping-hand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.helping-hand >h3{
+    color: #6b6868;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+.helping-hand >span{
+    border: 3px solid #e97843;
+    border-radius: 50%;
+    width: 20vw;
+    height: 1vh;
+    margin-bottom: 30px;
+}
+
+.helping-hand >p{
+    color: #000000;
+}
