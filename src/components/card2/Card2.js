@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import blogImage from '../../assets/img/blog3.jpeg';
+import faniImage from '../../assets/img/fani.jpeg';
+import helpImage from '../../assets/img/blog1.jpeg'; 
 import './Card2.css';
  
 class Card2 extends Component {
@@ -23,18 +25,18 @@ class Card2 extends Component {
                    </div>
                </div>
                <div className="card" id="card-section" style={{width:'25rem'}}>
-                   <img src={blogImage} />
+                   <img src={faniImage} />
                    <div className="card-body" id="body">
-                       <h3 className="card-title">A helping hand</h3>
-                       <p className="card-text">A helping hand is a critical need</p>
+                       <h3 className="card-title">During Fani</h3>
+                       <p className="card-text">During Fani, our team had worked ...</p>
                        <a href="#" className="btn btn-outline-primary">READ MORE</a>
                    </div>
                </div>
                <div className="card" id="card-section" style={{width:'25rem'}}>
                    <img src={blogImage} />
                    <div className="card-body" id="body">
-                       <h3 className="card-title">A helping hand</h3>
-                       <p className="card-text">A helping hand is a critical need</p>
+                       <h3 className="card-title">Covid-19</h3>
+                       <p className="card-text">We are at the forefront of Covid-19 ... </p>
                        <a href="#" className="btn btn-outline-primary">READ MORE</a>
                    </div>
                </div>
