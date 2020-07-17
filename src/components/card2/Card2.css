@@ -22,4 +22,12 @@
 
 .helping-hand >p{
     color: #000000;
+    text-indent: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
 }
