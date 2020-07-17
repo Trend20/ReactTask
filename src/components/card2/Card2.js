@@ -13,50 +13,29 @@ class Card2 extends Component {
                    <p>Making a difference by extending a helping hand 
                    for a social cause is like prestidigitating the magic of highest prestige.</p>
                </div>
-               <div className="container">
-               <div className="card" style={{
-                   width:'30vw',
-                   height:'90vh'
-                   }}>
-                   <img  src={blogImage} 
-                       style={{
-                           height:'40vh',
-                       }}
-                   />
-                   <div className="card-body">
-                       <h1 className="card-title">A helping hand</h1>
-                       <p className="card-text">A helping hand is a critical need ...</p>
-                       <a href="#">READ MORE</a>
+               <div id="services">
+               <div className="card" id="card-section" style={{width:'25rem'}}>
+                   <img src={blogImage} />
+                   <div className="card-body" id="body">
+                       <h3 className="card-title">A helping hand</h3>
+                       <p className="card-text">A helping hand is a critical need</p>
+                       <a href="#" className="btn btn-outline-primary">READ MORE</a>
                    </div>
                </div>
-               <div className="card" style={{
-                   width:'30vw',
-                   height:'90vh'
-                   }}>
-                   <img  src={blogImage} 
-                       style={{
-                           height:'40vh',
-                       }}
-                   />
-                   <div className="card-body">
-                       <h1 className="card-title">A helping hand</h1>
-                       <p className="card-text">A helping hand is a critical need ...</p>
-                       <a href="#">READ MORE</a>
+               <div className="card" id="card-section" style={{width:'25rem'}}>
+                   <img src={blogImage} />
+                   <div className="card-body" id="body">
+                       <h3 className="card-title">A helping hand</h3>
+                       <p className="card-text">A helping hand is a critical need</p>
+                       <a href="#" className="btn btn-outline-primary">READ MORE</a>
                    </div>
                </div>
-               <div className="card" style={{
-                   width:'30vw',
-                   height:'90vh'
-                   }}>
-                   <img  src={blogImage} 
-                       style={{
-                           height:'40vh',
-                       }}
-                   />
-                   <div className="card-body">
-                       <h1 className="card-title">A helping hand</h1>
-                       <p className="card-text">A helping hand is a critical need ...</p>
-                       <a href="#">READ MORE</a>
+               <div className="card" id="card-section" style={{width:'25rem'}}>
+                   <img src={blogImage} />
+                   <div className="card-body" id="body">
+                       <h3 className="card-title">A helping hand</h3>
+                       <p className="card-text">A helping hand is a critical need</p>
+                       <a href="#" className="btn btn-outline-primary">READ MORE</a>
                    </div>
                </div>
                </div>
