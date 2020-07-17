@@ -16,24 +16,24 @@ class Card2 extends Component {
                    for a social cause is like prestidigitating the magic of highest prestige.</p>
                </div>
                <div id="services">
-               <div className="card" id="card-section" style={{width:'25rem'}}>
-                   <img src={blogImage} />
+               <div className="card" id="card-section" style={{width:'23rem', height:'90vh'}}>
+                   <img src={helpImage} style={{height: '57vh'}}/>
                    <div className="card-body" id="body">
                        <h3 className="card-title">A helping hand</h3>
                        <p className="card-text">A helping hand is a critical need</p>
                        <a href="#" className="btn btn-outline-primary">READ MORE</a>
                    </div>
                </div>
-               <div className="card" id="card-section" style={{width:'25rem'}}>
-                   <img src={faniImage} />
+               <div className="card" id="card-section" style={{width:'23rem'}}>
+                   <img src={faniImage} style={{height:'50vh'}}/>
                    <div className="card-body" id="body">
                        <h3 className="card-title">During Fani</h3>
                        <p className="card-text">During Fani, our team had worked ...</p>
                        <a href="#" className="btn btn-outline-primary">READ MORE</a>
                    </div>
                </div>
-               <div className="card" id="card-section" style={{width:'25rem'}}>
-                   <img src={blogImage} />
+               <div className="card" id="card-section" style={{width:'23rem'}}>
+                   <img src={blogImage} style={{height:'50vh'}}/>
                    <div className="card-body" id="body">
                        <h3 className="card-title">Covid-19</h3>
                        <p className="card-text">We are at the forefront of Covid-19 ... </p>
