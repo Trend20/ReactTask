@@ -11,6 +11,7 @@ import Team from './components/team/Team';
 import Carousel from './components/carousel/Carousel';
 import Banner from './components/bunner/Bunner';
 import Card2 from './components/card2/Card2';
+import Works from './components/works/Works';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Carousel />
       <Banner />
       <Card2 />
+      <Works />
     </div>
   );
 }
