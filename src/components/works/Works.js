@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Work.css';
+import colImage from '../../assets/img/col1.jpg';
  
 class Works extends Component {
     render() { 
@@ -13,6 +15,29 @@ class Works extends Component {
                            Employment, Training, poor rehabilitation,
                            Food & Nutrition, plantation, Serving old orphan people, public awareness etc.
                     </p>
+                </div>
+                <div className="row">
+                    <div className="col-sm">
+                        <img src={colImage} />
+                    </div>
+                    <div className="col-sm">
+                        
+                    </div>
+                    <div className="col-sm">
+                        
+                    </div>
+                    <div className="col-sm">
+                        
+                    </div>
+                    <div className="col-sm">
+                        
+                    </div>
+                    <div className="col-sm">
+                        
+                    </div>
+                    <div className="col-sm">
+                        
+                    </div>
                 </div>
             </div>
         );
