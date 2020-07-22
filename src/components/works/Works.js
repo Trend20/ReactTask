@@ -21,22 +21,22 @@ class Works extends Component {
                         <img src={colImage} />
                     </div>
                     <div className="col-sm">
-                        
+                     <img src={colImage} />
                     </div>
                     <div className="col-sm">
-                        
+                    <img src={colImage} />
                     </div>
                     <div className="col-sm">
-                        
+                    <img src={colImage} /> 
                     </div>
                     <div className="col-sm">
-                        
+                    <img src={colImage} /> 
                     </div>
                     <div className="col-sm">
-                        
+                    <img src={colImage} /> 
                     </div>
                     <div className="col-sm">
-                        
+                    <img src={colImage} />
                     </div>
                 </div>
             </div>
