@@ -7,7 +7,16 @@
 
 .works-heading >h3{
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 25px;
+    letter-spacing: 20px;
+    font-size: 30px;
     color: #979292;
+    margin-bottom: 20px;
+}
+
+.span3{
+    width: 20vw;
+    height: 1vh;
+    border: 3px solid  #ec8a64fd;
+    border-radius: 50%;
+    margin-top: 20px;
 }
