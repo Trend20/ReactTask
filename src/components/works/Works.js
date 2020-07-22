@@ -18,25 +18,136 @@ class Works extends Component {
                 </div>
                 <div className="row">
                     <div className="col-sm">
-                        <img src={colImage} />
+                        <img src={colImage} 
+                            style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                        />
                     </div>
                     <div className="col-sm">
-                     <img src={colImage} />
+                     <img src={colImage} 
+                         style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                     />
                     </div>
                     <div className="col-sm">
-                    <img src={colImage} />
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    />
                     </div>
                     <div className="col-sm">
-                    <img src={colImage} /> 
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    /> 
                     </div>
                     <div className="col-sm">
-                    <img src={colImage} /> 
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    /> 
                     </div>
                     <div className="col-sm">
-                    <img src={colImage} /> 
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    /> 
                     </div>
                     <div className="col-sm">
-                    <img src={colImage} />
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm">
+                        <img src={colImage} 
+                            style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                        />
+                    </div>
+                    <div className="col-sm">
+                     <img src={colImage} 
+                         style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                     />
+                    </div>
+                    <div className="col-sm">
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    />
+                    </div>
+                    <div className="col-sm">
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    /> 
+                    </div>
+                    <div className="col-sm">
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    /> 
+                    </div>
+                    <div className="col-sm">
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    /> 
+                    </div>
+                    <div className="col-sm">
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    />
+                    </div>
+                </div>
+                <div className="row">
+                <div className="col-sm">
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    /> 
+                    </div>
+                    <div className="col-sm">
+                    <img src={colImage} 
+                        style={{
+                                width:'15vw',
+                                height:'20vh'
+                            }}
+                    />
                     </div>
                 </div>
             </div>
