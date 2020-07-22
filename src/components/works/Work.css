@@ -1,0 +1,10 @@
+.works-heading{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works-heading >h3{
+    
+}
