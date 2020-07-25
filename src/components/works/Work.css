@@ -1,5 +1,5 @@
-.container-fluid{
-    margin: 0;
+.img-container{
+    margin: 10px 0;
 }
 .works-heading{
     display: flex;
@@ -36,7 +36,6 @@
 
 .col-sm{
     column-gap: 50px;
-    padding-left: 20px;
 }
 
 img{

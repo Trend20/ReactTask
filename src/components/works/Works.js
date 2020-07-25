@@ -16,7 +16,7 @@ class Works extends Component {
                            Food & Nutrition, plantation, Serving old orphan people, public awareness etc.
                     </p>
                 </div>
-                <div className="container-fluid">
+                <div className="img-container">
                 <div className="row">
                     <div className="col-sm">
                         <img src={colImage} 
