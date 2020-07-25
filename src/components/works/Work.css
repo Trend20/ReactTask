@@ -26,3 +26,11 @@
     font-size: 25px;
     width: 50vw;
 }
+.row{
+    row-gap: 70px;
+    margin-top: 5px;
+}
+
+.col-sm{
+    column-gap: 20px;
+}
