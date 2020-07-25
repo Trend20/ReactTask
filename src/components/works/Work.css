@@ -1,3 +1,6 @@
+.container-fluid{
+    margin: 0;
+}
 .works-heading{
     display: flex;
     justify-content: space-evenly;
@@ -32,5 +35,10 @@
 }
 
 .col-sm{
-    column-gap: 20px;
+    column-gap: 50px;
+    padding-left: 20px;
+}
+
+img{
+    padding-left: 50px;
 }
